@@ -58,6 +58,25 @@ nyc_airbnb |>
 nyc_airbnb |> 
   count(neighbourhood) |> 
   mutate(neighbourhood = fct_reorder(neighbourhood, n)) |> 
-  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar", colors = "viridis")
+  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar", colors = "blue")
+```
+
+
+## ggplotly
+Can be a handy way to make a plot quickly. Just for you.
+Don't use this often.
+```{r}
+ggp_scatterplot = 
+nyc_airbnb |>
+  ggplot(aes(x=lat, y=long, color=price)) +
+  geom_point()
+
+ggplotly(ggp_scatterplot)
+```
+
+
+## Create a dashboard
+```{r}
+
 ```
 

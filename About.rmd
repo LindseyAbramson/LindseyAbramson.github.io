@@ -4,7 +4,7 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: journal
+    theme: lumen
 ---
 
 This website was coded by Lindsey Abramson using RMarkdown.

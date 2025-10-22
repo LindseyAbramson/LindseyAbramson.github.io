@@ -7,15 +7,13 @@ output:
     theme: lumen
     
 ---
-
-![](images/headshot.JPG){width=100px}
-
+<img src="images/headshot.JPG" width="200" style="float:left; margin-right:15px; margin-bottom:15px">
 
 I am a second-year Master of Public Health candidate in Epidemiology at Columbia University’s Mailman School of Public Health, pursuing a certificate in Infectious Disease Epidemiology. I study a wide range of epidemiological methods and biostatistics to better understand and address disease dynamics. I am proficient in SAS and R for data management, statistical analysis, and visualization. Previously, I earned my BA in biology and chemistry from Kenyon College, where I was a four-year varsity collegiate athlete and two-year captain.
 
-I currently am part of Columbia’s Ecology–Epidemiology [Lab](https://ecoepidemiologylab.e3b.columbia.edu/) (Dr. Maria Diuk-Wasser), where I study vector-borne diseases, and previously conducted research in the animal behavior [lab](https://irisilenalevin.weebly.com/) (Dr. Iris Levin) at Kenyon College examining avian malaria parasites and sexual selection. 
+I currently am part of Columbia’s Ecology–Epidemiology [Lab](https://ecoepidemiologylab.e3b.columbia.edu/) (Dr. Maria Diuk-Wasser), where I study vector-borne diseases, most namely Lyme Disease, and am currently writing my Master's thesis. I previously conducted research in the animal behavior [Lab](https://irisilenalevin.weebly.com/) (Dr. Iris Levin) at Kenyon College examining avian malaria and sexual selection in barn swallow birds. 
 
-Beyond academia, I bring industry experience from the pharmaceutical sector, where I contributed to neuroscience advocacy initiatives aimed at incorporating the patient voice into the drug development process at J&J.
+Beyond academia, I bring industry experience from the pharmaceutical sector, where I contributed to neuroscience patient advocacy initiatives aimed at incorporating the patient voice into the research and drug development process on the global medical affairs team at J&J.
 
 This website highlights my research, experience, data analysis projects, and public health interests and is an example coming from [P8105](https://p8105.com/making_websites.html). Learn more about this website [here](About.html). Feel free to explore my [resume](Resume.html).
 

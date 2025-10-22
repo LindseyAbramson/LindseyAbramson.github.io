@@ -1,0 +1,26 @@
+---
+title: "styles.css"
+output: html_document
+date: "2025-10-22"
+---
+
+/* Change all links to blue */
+a {
+  color: #1a73e8;
+}
+
+/* Change headings to blue */
+h1, h2, h3, h4, h5, h6 {
+  color: #1a73e8;
+}
+
+/* Hover color for links */
+a:hover {
+  color: #0d47a1;
+}
+
+/* Optional: theme accent colors for buttons or badges */
+.navbar, .btn, .badge {
+  background-color: gray !important;
+}
+

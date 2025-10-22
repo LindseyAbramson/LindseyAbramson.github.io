@@ -4,16 +4,21 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: journal
-  
+    theme: lumen
+    
 ---
 
+![](images/headshot.JPG){width=100px}
 
-Columbia University Mailman School of Public Health, MPH in Epidemiology
-Certificate in Infectious Disease Epidemiology
-Kenyon College, BA in Biology and Chemistry
+
+I am a second-year Master of Public Health candidate in Epidemiology at Columbia University’s Mailman School of Public Health, pursuing a certificate in Infectious Disease Epidemiology. I study a wide range of epidemiological methods and biostatistics to better understand and address disease dynamics. I am proficient in SAS and R for data management, statistical analysis, and visualization. Previously, I earned my BA in biology and chemistry from Kenyon College, where I was a four-year varsity collegiate athlete and two-year captain.
+
+I currently am part of Columbia’s Ecology–Epidemiology [Lab](https://ecoepidemiologylab.e3b.columbia.edu/) (Dr. Maria Diuk-Wasser), where I study vector-borne diseases, and previously conducted research in the animal behavior [lab](https://irisilenalevin.weebly.com/) (Dr. Iris Levin) at Kenyon College examining avian malaria parasites and sexual selection. 
+
+Beyond academia, I bring industry experience from the pharmaceutical sector, where I contributed to neuroscience advocacy initiatives aimed at incorporating the patient voice into the drug development process at J&J.
+
+This website highlights my research, experience, data analysis projects, and public health interests and is an example coming from [P8105](https://p8105.com/making_websites.html). Learn more about this website [here](About.html). Feel free to explore my [resume](Resume.html).
+
+
 ![](images/columbia.png)
 ![](images/kenyon.png)
-
-
-This website is an example coming from [P8105](https://p8105.com/making_websites.html). Learn more about this site [here](About.html).

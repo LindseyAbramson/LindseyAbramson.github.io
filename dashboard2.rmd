@@ -1,0 +1,71 @@
+---
+title: "NYC Restaurant Inspection Plots"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme: lumen
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data("rest_inspec")
+
+rest_inspec = 
+  rest_inspec |>
+  filter(boro == "Manhattan", grade == "C")
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Distribution of Grade "C" Restuarants in Manhattan
+
+```{r}
+rest_inspec |>
+  plot_ly(
+    x = ~latitude, y = ~longitude, type = "scatter", mode = "markers", alpha = 0.5) |>
+  layout(
+    xaxis = list(range = c(40.7, 40.88), title = "Latitude"),
+    yaxis = list(range = c(-74.02, -73.91), title = "Longitude")
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Number of Grade "C" Restuarants by Zipcode
+
+```{r}
+library(dplyr)
+
+rest_inspec |>
+  count(zipcode) |>
+  plot_ly(
+    x = ~as.factor(zipcode),
+    y = ~n,
+    type = "bar"
+  ) |>
+  layout(
+    xaxis = list(title = "Zipcode"),
+    yaxis = list(title = "Number of C Grade Restaurants")
+  )
+```
+
+### Range of Restaurant Inspection Scores by Zipcode for Grade "C" Restaurants
+
+```{r}
+rest_inspec |> 
+  plot_ly(x = ~as.factor(zipcode), y = ~score, type = "box")  |>
+  layout(
+    xaxis = list(title = "Zipcode"),
+    yaxis = list(title = "Restaurant Inspection Score")
+  )
+```
+

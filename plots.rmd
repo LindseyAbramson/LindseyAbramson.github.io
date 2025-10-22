@@ -5,7 +5,7 @@ output:
     theme: journal
 ---
 
-We ofte make plots in data science.
+We often make plots in data science.
 
 Here's the tidyverse.
 ```{r, message=FALSE}

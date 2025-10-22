@@ -2,6 +2,7 @@
 title: "Plotly and flexdashboard"
 output: html_document
 date: "2025-10-21"
+theme: journal
 ---
 
 ```{r setup, include=FALSE}

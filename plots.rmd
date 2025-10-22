@@ -2,7 +2,7 @@
 title: "Here are some plots"
 output: 
   html_document:
-    theme: cerulean
+    theme: journal
 ---
 
 We ofte make plots in data science.
